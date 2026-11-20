@@ -8,14 +8,25 @@ or build one with `/add-portal`.
 
 ## Search Sites
 
-Primary:
+### India-based boards (Priorities 1–4)
 - **naukri.com** — India's largest job board
 - **linkedin.com/jobs** — Global; filter: India / Remote
 - **iimjobs.com** — Senior management roles in India
 - **foundit.in** (formerly Monster India)
 
-Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for KPMG, Deloitte, EY, PwC, IFC, ADB, Breathe ESG, Persefoni, Watershed, Workiva
+### Global remote boards (Priority 5)
+- **climatebase.org** — Climate & ESG roles globally; most are remote-eligible
+- **climatechangecareers.com** — ESG/climate roles, global employers
+- **80000hours.org/job-board** — Impact-driven global roles; filters by remote
+- **remoteok.com** — Remote-only global board; search ESG/sustainability/climate
+- **devex.com** — Development sector; DFIs, NGOs, multilaterals (IFC, ADB, UNDP, GIZ)
+- **reliefweb.int/jobs** — UN agencies, multilaterals, development finance
+- **impactjob.io** — Impact-focused remote roles globally
+
+### Employer career pages — global remote-first targets
+- **DFIs/Multilaterals:** IFC (worldbank.org/jobs), ADB (adb.org/careers), AIIB (aiib.org/en/about-aiib/who-we-are/careers), BII/CDC (bii.co.uk/jobs), FMO (fmo.nl/work-at-fmo), DEG, Proparco, GIZ, OECD
+- **Global ESG consultancies:** South Pole (southpole.com/careers), ERM Group (erm.com/careers), Anthesis (anthesisgroup.com/careers), Systemiq (systemiq.earth/careers), Climate Advisory (South Pole parent)
+- **ESG SaaS (remote-first):** Persefoni (persefoni.com/careers), Watershed (watershed.com/jobs), Sweep (sweep.net/jobs), Workiva (workiva.com/about/careers), Sphera (sphera.com/company/careers), Net0 (net0.com)
 
 ## Query Categories
 
@@ -104,15 +115,49 @@ site:careers.kpmg.com ESG sustainability India remote
 site:jobs.deloitte.com ESG sustainability India remote
 ```
 
+---
+
+### Priority 5: Global Remote — International Employers Hiring from India
+
+Fully remote roles at global employers (DFIs, multilaterals, global ESG consultancies, ESG SaaS) that explicitly accept candidates based in India or APAC. Use "remote" with no country restriction, or "India" / "APAC" to surface India-eligible postings. Skip any posting that says "must be based in [specific non-India country]" or requires relocation.
+
+**Key employers to target directly:**
+- DFIs/Multilaterals: IFC, ADB, AIIB, BII (British International Investment), FMO, DEG, Proparco, GIZ, OECD
+- Global ESG consultancies: South Pole, ERM Group, Anthesis Group, Systemiq, Climate Advisory, Ramboll, WSP Global, ICF International
+- ESG SaaS (remote-first): Persefoni, Watershed, Sweep, Workiva, Sphera, Greenplaces, Net0
+- Global banks with remote ESG teams: HSBC, Standard Chartered, ING, BNP Paribas, Rabobank (sustainability/ESG functions)
+
+#### WebSearch-only (`site:` and employer-direct fallback)
+```
+site:climatebase.org "ESG" OR "sustainability" OR "GHG" remote Director OR "Senior Manager" OR "Lead"
+site:climatechangecareers.com "ESG" OR "sustainability assurance" OR "BRSR" OR "CSRD" remote
+site:devex.com "ESG" OR "environmental social" OR "climate risk" remote India OR APAC
+site:linkedin.com/jobs "ESG" OR "sustainability" remote "India" -relocation Director OR "Senior Manager" 2026
+site:linkedin.com/jobs "GHG accounting" OR "carbon accounting" remote "open to India" OR "India-based"
+site:greenhouse.io "sustainability" OR "ESG" OR "climate" remote India
+site:lever.co "sustainability" OR "ESG" OR "climate risk" remote India
+"ESG" OR "sustainability reporting" "remote" "India" site:careers.ifc.org OR site:adb.org/careers
+site:southpole.com/careers ESG sustainability remote
+site:erm.com/careers sustainability ESG remote India
+site:persefoni.com/careers OR site:watershed.com/jobs ESG remote
+"BRSR" OR "CSRD" OR "IFRS S2" remote global India 2026 jobs
+"ESG assurance" OR "sustainability assurance" remote global India Director
+"IFC Performance Standards" OR "ESMS" remote global jobs 2026
+```
+
 ## Location Filter
 
 Acceptable:
-- **Remote (from Bengaluru, India)** — primary target; fully remote roles globally
-- Bengaluru hybrid (max 2 days/week on-site acceptable if the role is strong)
+- **Fully remote (from Bengaluru, India)** — primary target; global employers welcome
+- **Global remote roles that accept India-based candidates** — explicitly stated "remote" with no country restriction, or "India" / "APAC" called out as acceptable
+- Bengaluru hybrid (max 2 days/week on-site acceptable if the role is otherwise strong)
+
+**Screening rule for global remote postings:** A posting is acceptable if it says "remote" and does NOT restrict the location to a specific country/region that excludes India. Flag (do not auto-exclude) postings that say "remote - must be in EU/UK/US" for the user to decide. Auto-exclude only if relocation is explicitly required.
 
 Not acceptable:
-- Relocation required
-- On-site only (any city)
+- Relocation required (any country)
+- On-site only (any city, any country)
+- "Remote" roles where the posting explicitly restricts to a country/timezone that makes Bengaluru (UTC+5:30) impractical (e.g. "must work US Pacific hours only") — flag these rather than include silently
 
 ## Language Filter
 
