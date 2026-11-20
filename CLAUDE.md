@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Novneet Kumar
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Novneet Kumar, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,79 +10,106 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Novneet Kumar, M.IOD
+- **Location:** Bengaluru, India (Remote only — open to fully remote roles globally; no relocation)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
+  | English | Native |
+  | Hindi | Native |
   <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
   working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
   undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
   lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
   04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Actively seeking — #OpenToWork
+- **LinkedIn headline:** "ESG & Sustainability Leader | 13+ Yrs | Decarbonization | GHG | BRSR | CSRD | ESG Assurance (ISAE 3000) | Ex KPMG | Ex Flipkart | #OpenToWork"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **PGD in Industrial Safety & Environment Management** (2010–2012) — IIM Mumbai (formerly NITIE — National Institute of Industrial Engineering), Mumbai
+  - Topics: Industrial safety, environment management, sustainability
+- **B.Tech in Electronics & Communication Engineering** (2006–2010) — Jaypee University of Information Technology, Solan
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Senior Specialist, ESG Services** (Jul 2025 – Apr 2026) — **Breathe ESG Private Limited** (Bengaluru)
+  - End-to-end delivery of ESG engagements: platform onboarding, GHG accounting, BRSR/GRI/CSRD reporting milestones, assurance readiness — 95%+ on-time delivery
+  - Led climate risk assessments aligned with TCFD/IFRS S2; translated NGFS scenarios into risk exposure matrices and investor-grade disclosure narratives
+  - Designed ESMS aligned with IFC Performance Standard 1; drove 3× upsell conversion on Scope 3, assurance, and custom reporting add-ons
+  - Standardised delivery workflows and SOPs, reducing client onboarding time by 40%; led and mentored team of ESG consultants and analysts
+  - Advised clients on BRSR Core, CSRD, and IFRS S2 compliance; collaborated with Product and Technology to influence platform roadmap
+
+- **Assistant Director, ESG Services** (Nov 2021 – Jul 2025) — **KPMG Assurance and Consulting Services LLP** (Bengaluru)
+  - Conducted ESG due diligence for PE clients under IFC PS1: ESMS review, material risk identification, gap analysis, remediation roadmaps
+  - Evaluated E&S risk management controls under ISAE 3000 and AA1000AS; issued audit-ready ESG assurance findings for listed and PE-backed entities
+  - Led GHG accounting framework development under GHG Protocol and ISO 14064 — 30% reduction in report generation time across Scope 1, 2, and 3
+  - Directed decarbonisation strategies aligned to Paris Agreement for major industry players; supported SBTi target-setting
+  - Executed GRI, BRSR, CSRD, CDP, DJSI, and EcoVadis engagements; managed team of 10 FTE; generated new business and managed client P&L
+
+- **Senior Program Manager — ESG & Reach** (Jun 2018 – Nov 2021) — **Flipkart Internet Pvt. Limited** (Bengaluru)
+  - Led digital ESG platform design: sustainability dashboard tracking GHG emissions (Scope 1 & 2), energy, water, and waste KPIs for senior leadership
+  - Rolled out company-wide decarbonisation programme across e-commerce operations; improved energy efficiency across multiple fulfilment facilities
+  - Partnered with vendors to increase recycled/biodegradable materials procurement; reduced virgin plastic use in packaging and last-mile logistics
+  - Managed cross-functional ESG programme (legal, ops, logistics, vendor management) across delivery hubs nationwide; conducted EHS and ESG site audits
+
+- **Assistant Manager, Climate Change & Sustainability** (Jul 2014 – Jun 2018) — **KPMG India** (Mumbai)
+  - Supported ESG/E&S due diligence for PE and infrastructure transactions under IFC PS1
+  - Verified sustainability data under ISAE 3000; executed sustainability strategy, materiality assessment, and ESG governance advisory engagements
+  - Managed client projects end-to-end: staffing, budgeting, schedule, and stakeholder relationships
+
+- **Management Trainee — Sustainability Specialist** (Feb 2013 – Dec 2013) — **Shree Cements Limited** (Beawar)
+  - Coordinated country-level sustainability activities; tracked KPIs per GRI and CSI guidelines; partnered with NGOs and government on social impact initiatives
+
+- **Consultant — Clean Development Mechanism** (Jun 2012 – Dec 2012) — **Core CarbonX Solutions** (Hyderabad)
+  - Analysed Biogas CDM survey data; supported CDM project validation, registration, and verification with UNFCCC-designated operational entities
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** GHG Accounting (Scope 1–3, GHG Protocol, ISO 14064), ESG Reporting (GRI 2021, BRSR Core, CSRD, IFRS S1/S2, SASB, CDP, DJSI, EcoVadis), ESG Assurance (ISAE 3000, AA1000AS), Decarbonisation Strategy, Climate Risk Assessment (TCFD, IFRS S2, NGFS scenarios)
+- **Secondary:** IFC Performance Standards (PS1), ESMS Implementation, ESG Due Diligence (PE/Infrastructure), SBTi target-setting, EHS Compliance (ISO 14001, ISO 45001/OHSAS 18001), amfori BSCI, IRMA, RJC, PCAF, Equator Principles
+- **Domain:** ESG & Sustainability, Climate Risk, Sustainable Finance, Environmental & Social Governance, Corporate Sustainability Reporting, Supply Chain Sustainability
+- **Software/Tools:** ESG platforms (Breathe ESG), GHG software, ESG dashboards, compliance tracking tools, sustainability data management systems; proficient with standard office and reporting tools
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **IoD Certified Corporate Director** — Institute of Directors
+- **GRI Certified Training on GRI Standards 2021** — GRI
+- **CSRD Fundamentals** — CSRD Institute
+- **Lead Auditor** — amfori Business Social Compliance Initiative (BSCI)
+- **Qualified Auditor** — Initiative for Responsible Mining Assurance (IRMA)
+- **ICRA Certified Lead Auditor** — ISO 45001 / OHSAS 18001
+- **Lead Auditor** — Responsible Jewellery Council (RJC)
+- **BCSP Certified Transitional Safety Professional** — Board of Certified Safety Professionals
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+<!-- None listed on CV — add here if applicable -->
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+<!-- None listed on CV — add here if applicable -->
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Results-driven** - Consistently delivers client engagements on time with measurable outcomes (95%+ on-time delivery at Breathe ESG; 30% reduction in GHG report generation time at KPMG)
+- **Detail-oriented** - Rigorous approach to data quality, assurance standards (ISAE 3000, AA1000AS), and regulatory compliance
+- **Collaborative & Supportive** - Builds and mentors teams (10+ FTE); partners cross-functionally with Product, Technology, Operations, and Legal
+- **Strengths:** ESG advisory, sustainability assurance (ISAE 3000/AA1000AS), GHG accounting, regulatory navigation (BRSR/CSRD/IFRS S2), client P&L management, stakeholder engagement
+- **Growth areas:** Scaling project management across larger multi-geography programmes
+- **Thrives in:** Purpose-driven organisations, roles that bridge technical ESG rigour with strategic advisory, collaborative team environments with cross-functional exposure
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building ESG assurance capability in emerging markets — helping organisations move from disclosure to genuine accountability
+- Translating complex, fast-evolving ESG regulation (CSRD, IFRS S2, BRSR Core) into actionable strategies for finance and corporate clients
+- Leveraging digital platforms and GHG software to scale sustainability data quality and reporting
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Financial Services (Banking, Insurance, Private Equity, Development Finance): IFC, ADB, DEG, Proparco, HSBC, Standard Chartered, Axis Bank, HDFC, Allianz, Munich Re, CDC Group
+- ESG Advisory & Big 4 Consulting: KPMG, Deloitte, EY, PwC, BCG, Bain, McKinsey, Accenture Sustainability
+- ESG SaaS & Technology Platforms: Persefoni, Watershed, Sweep, Greenplaces, Sphera, Enablon, Workiva, Breathe ESG
+- Corporates with strong sustainability teams: Mahindra, Tata Group, Infosys, Wipro, Unilever India, Godrej, ITC, Reliance (sustainability / ESG functions)
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- On-site only roles (remote work from Bengaluru is non-negotiable)
+- Pure EHS/safety roles with no ESG reporting or advisory component
+- Roles below Senior Manager / Senior Specialist level
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
