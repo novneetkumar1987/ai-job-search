@@ -1,129 +1,125 @@
-# Search Queries for Job Scraper
-
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
+# Search Queries for Novneet Kumar — ESG & Sustainability
 
 ## Installed portal CLIs (primary for `/scrape`)
 
-`/scrape` discovers every portal skill under `.agents/skills/*/SKILL.md` and runs its CLI first. None ship with AI Job Search: copy the ones for your market from [community-portals](https://github.com/ai-job-search-dev/community-portals) (e.g. `linkedin-search`, `freehire-search` under `portals/global/`), or build one with `/add-portal`. You do **not** need a matching `site:` line below for those CLIs to run.
-
-The `site:` query templates in this file are the **WebSearch fallback** — for portals without a CLI, company career pages, or when a CLI fails.
-
-**Language scope:** write every query category in every language listed in your CLAUDE.md Languages table (typically 1-2, sometimes more). A posting requiring a language you have *not* declared, as a job condition, is excluded before scoring; a posting requiring a *higher level* than you declared in a language you *do* work in is flagged for your own judgment, not excluded — see `04-job-evaluation.md`'s Language Gate, the single source of truth for this rule. Translate each category's keywords rather than machine-translating word-for-word (e.g. "Frontend Developer" -> "Desarrollador Frontend", not a literal word-for-word translation) if you work in more than one language.
+No portal CLIs installed yet. All searches use WebSearch.
+Copy CLIs for your market from https://github.com/ai-job-search-dev/community-portals
+or build one with `/add-portal`.
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by the community `linkedin-search` CLI once installed
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+Primary:
+- **naukri.com** — India's largest job board
+- **linkedin.com/jobs** — Global; filter: India / Remote
+- **iimjobs.com** — Senior management roles in India
+- **foundit.in** (formerly Monster India)
 
 Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+- Direct Google searches with `site:` filters for KPMG, Deloitte, EY, PwC, IFC, ADB, Breathe ESG, Persefoni, Watershed, Workiva
 
 ## Query Categories
 
-Queries are grouped by priority. Write **each category in every language from your Languages table** (see Language scope above). Combine each query with your location terms (e.g. your city, region, or metro area) where the site supports it.
+### Priority 1: ESG Reporting & Assurance (Director / Senior Manager)
 
-Each priority has two kinds of block. **Plain terms** blocks are what the portal CLIs consume: one term per line, one CLI call per term, no `OR`, no `site:` prefix, and no location (the CLI's location flag, or the city in `--query` where that portal's SKILL.md says so, carries it). Quote a multi-word phrase only if the portal's `Query syntax:` line says quoting is honoured. **WebSearch-only** blocks are Google syntax (`site:`, quotes, `OR`) for the fallback path and are never passed to a CLI.
-
-**Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
-
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
-
-These match your strongest and most desired career direction.
+Core function — strongest match to 13-year track record.
 
 #### Plain terms (portal CLIs)
-
 ```
-[YOUR_PRIMARY_JOB_TITLE_1]
-[YOUR_PRIMARY_JOB_TITLE_2]
-[YOUR_KEY_SKILL]
+ESG Director
+Head of ESG
+ESG Assurance
+Sustainability Assurance
+ESG Reporting Director
 ```
 
 #### WebSearch-only (`site:` fallback)
-
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
+site:linkedin.com/jobs "ESG Director" OR "Head of ESG" remote India
+site:linkedin.com/jobs "ESG Assurance" OR "Sustainability Assurance" remote India
+site:linkedin.com/jobs "ESG Reporting" Director OR "Senior Manager" remote India
+site:naukri.com "ESG" Director OR "Senior Manager" remote Bengaluru
+site:iimjobs.com ESG sustainability Director remote
 ```
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
+### Priority 2: GHG Accounting & Decarbonisation
 
-These match your domain expertise.
+Deep technical expertise in GHG Protocol, ISO 14064, Scope 1/2/3, SBTi.
 
 #### Plain terms (portal CLIs)
-
 ```
-[YOUR_DOMAIN_KEYWORD_1]
-[YOUR_DOMAIN_KEYWORD_2]
+GHG Accounting
+Decarbonisation Strategy
+Carbon Accounting
+Net Zero
+Scope 3
 ```
 
 #### WebSearch-only (`site:` fallback)
-
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:linkedin.com/jobs "GHG" "Scope 3" remote India Director OR "Senior Manager"
+site:linkedin.com/jobs "BRSR" OR "CSRD" OR "IFRS S2" remote India 2025 OR 2026
+site:linkedin.com/jobs "Decarbonisation" OR "net zero" remote India consulting
+site:naukri.com "GHG Protocol" OR "carbon accounting" remote India
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 3: Climate Risk & Sustainable Finance
 
-Adjacent roles you could pivot into.
+TCFD, IFRS S2, IFC PS1, ESMS, ESG Due Diligence — advisory and DFI roles.
 
 #### Plain terms (portal CLIs)
-
 ```
-[YOUR_ADJACENT_TITLE_1]
-[YOUR_ADJACENT_TITLE_2]
+Climate Risk Advisory
+TCFD
+ESG Due Diligence
+IFC Performance Standards
+Sustainable Finance
+ESMS
 ```
 
 #### WebSearch-only (`site:` fallback)
-
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+site:linkedin.com/jobs "Climate Risk" "TCFD" OR "IFRS S2" remote India
+site:linkedin.com/jobs "ESG Due Diligence" OR "IFC Performance Standards" remote India
+site:linkedin.com/jobs "Sustainable Finance" ESG remote India Director
+site:linkedin.com/jobs "ESMS" OR "Environmental Social Management" remote India
 ```
 
-### Priority 4: Broader Technical / Consulting
+### Priority 4: Big 4 / Consulting / ESG SaaS
 
-Wider net for general technical roles.
+Target employers: KPMG, Deloitte, EY, PwC, BCG, Accenture, Persefoni, Workiva, Watershed.
 
 #### Plain terms (portal CLIs)
-
 ```
-[YOUR_KEY_SKILL] developer
-technical consultant
+Sustainability Consultant Senior Manager
+ESG Platform
+ESG Technology
 ```
 
 #### WebSearch-only (`site:` fallback)
-
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:linkedin.com/jobs "Sustainability" "KPMG" OR "Deloitte" OR "EY" OR "PwC" remote India Director OR "Senior Manager"
+site:linkedin.com/jobs "ESG" "Accenture" OR "BCG" OR "Bain" remote India
+site:linkedin.com/jobs "ESG Platform" OR "ESG SaaS" remote India
+site:careers.kpmg.com ESG sustainability India remote
+site:jobs.deloitte.com ESG sustainability India remote
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Acceptable:
+- **Remote (from Bengaluru, India)** — primary target; fully remote roles globally
+- Bengaluru hybrid (max 2 days/week on-site acceptable if the role is strong)
+
+Not acceptable:
+- Relocation required
+- On-site only (any city)
 
 ## Language Filter
 
-Your working languages and levels are in CLAUDE.md's Languages table. When filtering scraped results, apply `04-job-evaluation.md`'s Language Gate: a posting requiring a language you haven't declared at all is excluded; a posting requiring a higher level than you declared in a language you do work in is not excluded, flag it clearly instead (see `job-scraper/SKILL.md`'s Step 3 "Quick Fit Assessment" for how the flag surfaces in `/scrape` output). Postings simply *written* in a language you don't work in, that don't require it on the job, are fine.
+Working languages: English (native), Hindi (native).
+Language Gate: a posting requiring a language not in this table is excluded; a posting
+requiring higher than native in English/Hindi is flagged (not excluded).
 
 ## Date Filter
 
-Only include jobs posted within the last 14 days, matching `/scrape` Step 1b.3: use a supported recency filter or filter the returned publication dates client-side. A future application deadline does not bypass this discovery window; `/rank` handles deadline expiry and urgency separately after discovery. If a posting date cannot be determined, include it but flag as "date unknown".
-
-## Adapting Queries
-
-If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus. For example:
-- "/scrape [focus_area]" -> relevant category queries + custom focus-specific queries
+Last 14 days only. If posting date is unavailable, include but flag as "date unknown".
