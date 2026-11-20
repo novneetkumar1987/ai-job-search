@@ -15,13 +15,25 @@ or build one with `/add-portal`.
 - **foundit.in** (formerly Monster India)
 
 ### Global remote boards (Priority 5)
-- **climatebase.org** — Climate & ESG roles globally; most are remote-eligible
-- **climatechangecareers.com** — ESG/climate roles, global employers
-- **80000hours.org/job-board** — Impact-driven global roles; filters by remote
-- **remoteok.com** — Remote-only global board; search ESG/sustainability/climate
-- **devex.com** — Development sector; DFIs, NGOs, multilaterals (IFC, ADB, UNDP, GIZ)
-- **reliefweb.int/jobs** — UN agencies, multilaterals, development finance
+
+**ESG / Climate / Impact-specific:**
+- **inclimate.com/climate-jobs/remote** — Best live feed; 30+ remote ESG advisory roles, refreshed daily; filter by Carbon & ESG Reporting / Sustainability & ESG
+- **climatebase.org** — Climate & ESG roles globally; most are remote-eligible; set up daily email alert
+- **climatechangecareers.com** — ESG/climate roles, global employers; free alerts
+- **greenjobsboard.us** — Green Jobs Board (US-centric but many global remote roles)
+- **greenjobs.net** — Green Jobs Network; international sustainability roles
+- **80000hours.org/job-board** — Impact-driven global roles; filters by remote; DFI/NGO/climate focus
 - **impactjob.io** — Impact-focused remote roles globally
+- **bwork.com** — B Corp certified companies hiring; mission-driven remote roles
+- **devex.com** — Development sector; DFIs, NGOs, multilaterals (IFC, ADB, UNDP, GIZ); filter: remote
+- **reliefweb.int/jobs** — UN agencies, multilaterals, development finance
+
+**General remote-first boards (global roles that accept India-based):**
+- **weworkremotely.com** — Remote-only global board; search sustainability/ESG/climate
+- **remoteok.com** — Remote-only global board; search ESG/sustainability/climate
+- **flexjobs.com** — Curated remote & flexible jobs; strong ESG/sustainability section; India-eligible roles flagged
+- **simplyhired.com** — Global job aggregator; "remote" filter + ESG/sustainability terms
+- **instahyre.com** — India-based platform with global remote roles posted by overseas companies specifically seeking India talent
 
 ### Employer career pages — global remote-first targets
 - **DFIs/Multilaterals:** IFC (worldbank.org/jobs), ADB (adb.org/careers), AIIB (aiib.org/en/about-aiib/who-we-are/careers), BII/CDC (bii.co.uk/jobs), FMO (fmo.nl/work-at-fmo), DEG, Proparco, GIZ, OECD
@@ -128,14 +140,45 @@ Fully remote roles at global employers (DFIs, multilaterals, global ESG consulta
 - Global banks with remote ESG teams: HSBC, Standard Chartered, ING, BNP Paribas, Rabobank (sustainability/ESG functions)
 
 #### WebSearch-only (`site:` and employer-direct fallback)
+
+**ESG/climate-specific boards:**
 ```
+site:inclimate.com "ESG" OR "sustainability" OR "GHG" remote Director OR "Senior Manager" OR "Lead"
 site:climatebase.org "ESG" OR "sustainability" OR "GHG" remote Director OR "Senior Manager" OR "Lead"
 site:climatechangecareers.com "ESG" OR "sustainability assurance" OR "BRSR" OR "CSRD" remote
+site:greenjobsboard.us "ESG" OR "sustainability" OR "GHG" remote Director OR "Senior Manager"
+site:greenjobs.net "ESG" OR "sustainability" OR "carbon" remote Director OR "Senior Manager"
+site:80000hours.org/job-board ESG sustainability climate risk remote
 site:devex.com "ESG" OR "environmental social" OR "climate risk" remote India OR APAC
+site:bwork.com "ESG" OR "sustainability" OR "GHG" remote Director OR "Senior Manager"
+```
+
+**General remote boards:**
+```
+site:weworkremotely.com "ESG" OR "sustainability" OR "GHG" OR "climate"
+site:remoteok.com "ESG" OR "sustainability" OR "carbon accounting" OR "climate"
+site:flexjobs.com "ESG" OR "sustainability" OR "GHG" remote Director OR "Senior Manager"
+site:simplyhired.com "ESG" OR "sustainability" remote India Director OR "Senior Manager" 2026
+site:instahyre.com "ESG" OR "sustainability" remote Director OR "Senior Manager"
+```
+
+**LinkedIn global remote (India-eligible):**
+```
 site:linkedin.com/jobs "ESG" OR "sustainability" remote "India" -relocation Director OR "Senior Manager" 2026
 site:linkedin.com/jobs "GHG accounting" OR "carbon accounting" remote "open to India" OR "India-based"
+site:linkedin.com/jobs "ESG assurance" OR "ISAE 3000" OR "AA1000" remote global 2026
+site:linkedin.com/jobs "BRSR" OR "CSRD" OR "IFRS S2" remote global Director OR "Senior Manager" 2026
+site:linkedin.com/jobs "IFC Performance Standards" OR "ESMS" OR "ESG due diligence" remote global
+```
+
+**ATS systems (Greenhouse / Lever — employer career pages):**
+```
 site:greenhouse.io "sustainability" OR "ESG" OR "climate" remote India
 site:lever.co "sustainability" OR "ESG" OR "climate risk" remote India
+```
+
+**Employer career pages — direct search:**
+```
 "ESG" OR "sustainability reporting" "remote" "India" site:careers.ifc.org OR site:adb.org/careers
 site:southpole.com/careers ESG sustainability remote
 site:erm.com/careers sustainability ESG remote India
