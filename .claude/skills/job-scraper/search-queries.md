@@ -40,6 +40,17 @@ or build one with `/add-portal`.
 - **Global ESG consultancies:** South Pole (southpole.com/careers), ERM Group (erm.com/careers), Anthesis (anthesisgroup.com/careers), Systemiq (systemiq.earth/careers), Climate Advisory (South Pole parent)
 - **ESG SaaS (remote-first):** Persefoni (persefoni.com/careers), Watershed (watershed.com/jobs), Sweep (sweep.net/jobs), Workiva (workiva.com/about/careers), Sphera (sphera.com/company/careers), Net0 (net0.com)
 
+### Consulting GCC / India delivery centre career pages (Priority 6)
+- **KPMG Delivery Network (KDN):** careers.kpmg.com/in
+- **EY GDS / EY Parthenon India:** jobs.ey.com (filter: India + GDS / Parthenon)
+- **Deloitte USI:** deloitte.com/in/en/careers.html
+- **PwC Acceleration Centers:** pwc.in/careers
+- **McKinsey Knowledge Centre:** mckinsey.com/careers (filter: India)
+- **BCG India / BCG X:** careers.bcg.com
+- **Accenture India (Sustainability):** accenture.com/in-en/careers
+- **Oliver Wyman / Marsh McLennan India:** oliverwyman.com/careers
+- **WTW India:** careers.wtwco.com
+
 ## Query Categories
 
 ### Priority 1: ESG Reporting & Assurance (Director / Senior Manager)
@@ -186,6 +197,67 @@ site:persefoni.com/careers OR site:watershed.com/jobs ESG remote
 "BRSR" OR "CSRD" OR "IFRS S2" remote global India 2026 jobs
 "ESG assurance" OR "sustainability assurance" remote global India Director
 "IFC Performance Standards" OR "ESMS" remote global jobs 2026
+```
+
+---
+
+### Priority 6: Consulting GCCs & India Delivery Centres
+
+**What these are:** Global Capability Centres (GCCs) / offshore delivery arms of major consulting and professional services firms, primarily hiring in Bengaluru, Hyderabad, Pune, and Chennai for work serving their global member firms or parent organisations. Roles are paid at India market rates (₹), typically ₹15–25L/year at AM/Consultant level (~$18–30K USD) — well below the $70K–$100K international target. **Flag salary gap on every GCC result.** Include them because they offer access to global ESG projects, rapid skill-building, and brand equity (KPMG, EY, Deloitte, PwC) even at India pay scales.
+
+**Key GCC targets:**
+- **KPMG Delivery Network (KDN)** — KPMG's offshore delivery arm; Bengaluru/Hyderabad; serves KPMG global member firms; ESG/climate team growing fast
+- **EY GDS (Global Delivery Services)** — EY's large India GCC; Bengaluru/Chennai/Trivandrum; ESG, climate risk, BRSR, CSRD work for EY global teams
+- **EY Parthenon India** — EY's strategy consulting arm (Parthenon Group acquisition); ESG strategy, impact investing, sustainability strategy; Bengaluru/Mumbai
+- **Deloitte USI (US-India) / Deloitte Support Services** — Deloitte's India delivery arm; large ESG/sustainability practice
+- **PwC AC (Acceleration Centers)** — PwC's India delivery centres; ESG reporting, climate risk, BRSR
+- **McKinsey Knowledge Centre (MKC)** / **McKinsey India** — ESG/sustainability practice; Bengaluru/Gurugram
+- **BCG India / BCG X** — BCG's India operations; climate/ESG Centre of Impact
+- **Accenture India** — Large sustainability practice; GCC for Accenture global sustainability team
+- **Oliver Wyman India / MMC India** — Marsh McLennan's India centre; ESG risk, sustainable finance
+- **WTW India** — Willis Towers Watson's India GCC; ESG/climate risk/TCFD advisory
+- **Capgemini India** — Invent / sustainability consulting arm
+- **BearingPoint India**
+
+**Career pages:**
+- careers.kpmg.com/in (KDN roles specifically)
+- jobs.ey.com (filter: India, GDS)
+- deloitte.com/in/en/careers.html
+- pwc.in/careers
+- mckinsey.com/careers
+- careers.bcg.com
+- accenture.com/in-en/careers
+- oliverwyman.com/careers
+
+#### Plain terms (portal CLIs)
+```
+ESG Consultant KPMG
+Sustainability Consultant EY
+ESG Manager Deloitte
+Carbon Accounting PwC
+ESG Analyst McKinsey
+Sustainability GCC
+```
+
+#### WebSearch-only (`site:` and employer-direct fallback)
+```
+site:linkedin.com/jobs "KPMG Delivery Network" OR "KDN" ESG sustainability consultant Bengaluru
+site:linkedin.com/jobs "EY GDS" OR "EY Global Delivery" ESG sustainability climate India
+site:linkedin.com/jobs "EY Parthenon" ESG sustainability strategy India
+site:linkedin.com/jobs "Deloitte USI" OR "Deloitte US India" ESG sustainability consultant India
+site:linkedin.com/jobs "PwC" "Acceleration Center" ESG sustainability India
+site:naukri.com "KPMG" "ESG" OR "sustainability" "GCC" OR "delivery" Bengaluru consultant
+site:naukri.com "EY" "ESG" OR "sustainability" Bengaluru consultant "GDS" OR "GCC"
+site:naukri.com "Deloitte" "ESG" OR "sustainability" Bengaluru consultant
+site:naukri.com "PwC" OR "Price Waterhouse" "ESG" OR "sustainability" Bengaluru consultant
+site:naukri.com "McKinsey" OR "BCG" OR "Accenture" "ESG" OR "sustainability" Bengaluru consultant
+site:iimjobs.com "ESG" "KPMG" OR "EY" OR "Deloitte" OR "PwC" consultant India
+site:linkedin.com/jobs "ESG" "McKinsey Knowledge Centre" OR "MKC" India sustainability
+site:linkedin.com/jobs "BCG India" ESG sustainability climate consultant
+site:linkedin.com/jobs "Accenture" "sustainability" OR "ESG" OR "climate" India GCC consultant 2026
+site:linkedin.com/jobs "Oliver Wyman" OR "WTW" OR "Willis Towers Watson" ESG India consultant
+site:careers.kpmg.com ESG sustainability consultant India
+site:jobs.ey.com ESG sustainability GDS India consultant
 ```
 
 ## Location Filter
