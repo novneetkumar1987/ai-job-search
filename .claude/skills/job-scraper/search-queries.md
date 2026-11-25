@@ -203,7 +203,11 @@ site:persefoni.com/careers OR site:watershed.com/jobs ESG remote
 
 ### Priority 6: Consulting GCCs & India Delivery Centres
 
-**What these are:** Global Capability Centres (GCCs) / offshore delivery arms of major consulting and professional services firms, primarily hiring in Bengaluru, Hyderabad, Pune, and Chennai for work serving their global member firms or parent organisations. Roles are paid at India market rates (₹), typically ₹15–25L/year at AM/Consultant level (~$18–30K USD) — well below the $70K–$100K international target. **Flag salary gap on every GCC result.** Include them because they offer access to global ESG projects, rapid skill-building, and brand equity (KPMG, EY, Deloitte, PwC) even at India pay scales.
+**What these are:** Global Capability Centres (GCCs) / offshore delivery arms of major consulting and professional services firms, primarily hiring in Bengaluru, Hyderabad, Pune, and Chennai for work serving their global member firms or parent organisations. Roles are paid at India market rates (₹).
+
+**Level target for this track: Manager and above** (Manager, Senior Manager, Director). Do NOT surface Consultant / AM / Associate-level GCC results — those belong on the international remote track only.
+
+India pay bands at target level: Manager ~₹25–40L/year (~$30–48K USD); Senior Manager ~₹40–65L/year (~$48–78K USD). Still below the international $70K–$100K target but appropriate for India-domiciled Big 4 / GCC roles. **Flag salary gap on every GCC result** so the user can compare tracks consciously.
 
 **Key GCC targets:**
 - **KPMG Delivery Network (KDN)** — KPMG's offshore delivery arm; Bengaluru/Hyderabad; serves KPMG global member firms; ESG/climate team growing fast
@@ -231,41 +235,50 @@ site:persefoni.com/careers OR site:watershed.com/jobs ESG remote
 
 #### Plain terms (portal CLIs)
 ```
-ESG Consultant KPMG
-Sustainability Consultant EY
-ESG Manager Deloitte
-Carbon Accounting PwC
-ESG Analyst McKinsey
-Sustainability GCC
+ESG Manager KPMG
+Sustainability Manager EY
+ESG Senior Manager Deloitte
+Carbon Manager PwC
+Sustainability Director McKinsey
+ESG Manager GCC India
 ```
 
 #### WebSearch-only (`site:` and employer-direct fallback)
 ```
-site:linkedin.com/jobs "KPMG Delivery Network" OR "KDN" ESG sustainability consultant Bengaluru
-site:linkedin.com/jobs "EY GDS" OR "EY Global Delivery" ESG sustainability climate India
-site:linkedin.com/jobs "EY Parthenon" ESG sustainability strategy India
-site:linkedin.com/jobs "Deloitte USI" OR "Deloitte US India" ESG sustainability consultant India
-site:linkedin.com/jobs "PwC" "Acceleration Center" ESG sustainability India
-site:naukri.com "KPMG" "ESG" OR "sustainability" "GCC" OR "delivery" Bengaluru consultant
-site:naukri.com "EY" "ESG" OR "sustainability" Bengaluru consultant "GDS" OR "GCC"
-site:naukri.com "Deloitte" "ESG" OR "sustainability" Bengaluru consultant
-site:naukri.com "PwC" OR "Price Waterhouse" "ESG" OR "sustainability" Bengaluru consultant
-site:naukri.com "McKinsey" OR "BCG" OR "Accenture" "ESG" OR "sustainability" Bengaluru consultant
-site:iimjobs.com "ESG" "KPMG" OR "EY" OR "Deloitte" OR "PwC" consultant India
-site:linkedin.com/jobs "ESG" "McKinsey Knowledge Centre" OR "MKC" India sustainability
-site:linkedin.com/jobs "BCG India" ESG sustainability climate consultant
-site:linkedin.com/jobs "Accenture" "sustainability" OR "ESG" OR "climate" India GCC consultant 2026
-site:linkedin.com/jobs "Oliver Wyman" OR "WTW" OR "Willis Towers Watson" ESG India consultant
-site:careers.kpmg.com ESG sustainability consultant India
-site:jobs.ey.com ESG sustainability GDS India consultant
+site:linkedin.com/jobs "KPMG Delivery Network" OR "KDN" ESG sustainability Manager OR "Senior Manager" India
+site:linkedin.com/jobs "EY GDS" OR "EY Global Delivery" ESG sustainability Manager OR "Senior Manager" India
+site:linkedin.com/jobs "EY Parthenon" ESG sustainability Manager OR "Senior Manager" India
+site:linkedin.com/jobs "Deloitte USI" OR "Deloitte US India" ESG sustainability Manager OR "Senior Manager" India
+site:linkedin.com/jobs "PwC" "Acceleration Center" ESG sustainability Manager OR "Senior Manager" India
+site:naukri.com "KPMG" "ESG" OR "sustainability" Bengaluru Manager OR "Senior Manager"
+site:naukri.com "EY" "ESG" OR "sustainability" Bengaluru Manager OR "Senior Manager" GDS OR GCC
+site:naukri.com "Deloitte" "ESG" OR "sustainability" Bengaluru Manager OR "Senior Manager"
+site:naukri.com "PwC" OR "Price Waterhouse" "ESG" OR "sustainability" Bengaluru Manager OR "Senior Manager"
+site:naukri.com "McKinsey" OR "BCG" OR "Accenture" "ESG" OR "sustainability" Bengaluru Manager OR Director
+site:iimjobs.com "ESG" "KPMG" OR "EY" OR "Deloitte" OR "PwC" Manager OR "Senior Manager" India
+site:linkedin.com/jobs "ESG" "McKinsey Knowledge Centre" OR "MKC" India Manager OR "Senior Manager"
+site:linkedin.com/jobs "BCG India" ESG sustainability Manager OR Director
+site:linkedin.com/jobs "Accenture" "sustainability" OR "ESG" OR "climate" India Manager OR "Senior Manager" 2026
+site:linkedin.com/jobs "Oliver Wyman" OR "WTW" OR "Willis Towers Watson" ESG India Manager OR Director
+site:careers.kpmg.com ESG sustainability Manager OR "Senior Manager" India
+site:jobs.ey.com ESG sustainability GDS India Manager OR "Senior Manager"
 ```
+
+## Level Filter (two-track strategy)
+
+| Track | Level target | Salary target | Location |
+|-------|-------------|--------------|----------|
+| International remote | Consultant / AM only | $70K–$100K USD | Fully remote, India-eligible |
+| India GCC / Big 4 India | **Manager and above** (Manager, Senior Manager, Director) | India market rate (₹) | On-site / hybrid India acceptable |
+
+Apply the correct level filter per track. Surfacing a Consultant-level GCC role or a Senior Manager remote role is a mismatch — flag and skip unless the user asks to override.
 
 ## Location Filter
 
 Acceptable:
 - **Fully remote (from Bengaluru, India)** — primary target; global employers welcome
 - **Global remote roles that accept India-based candidates** — explicitly stated "remote" with no country restriction, or "India" / "APAC" called out as acceptable
-- Bengaluru hybrid (max 2 days/week on-site acceptable if the role is otherwise strong)
+- Bengaluru hybrid (max 2 days/week on-site acceptable if the role is otherwise strong; on-site acceptable for India GCC/Big 4 Manager+ track)
 
 **Screening rule for global remote postings:** A posting is acceptable if it says "remote" and does NOT restrict the location to a specific country/region that excludes India. Flag (do not auto-exclude) postings that say "remote - must be in EU/UK/US" for the user to decide. Auto-exclude only if relocation is explicitly required.
 
