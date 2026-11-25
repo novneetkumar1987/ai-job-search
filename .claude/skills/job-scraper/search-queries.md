@@ -34,6 +34,10 @@ or build one with `/add-portal`.
 - **flexjobs.com** — Curated remote & flexible jobs; strong ESG/sustainability section; India-eligible roles flagged
 - **simplyhired.com** — Global job aggregator; "remote" filter + ESG/sustainability terms
 - **instahyre.com** — India-based platform with global remote roles posted by overseas companies specifically seeking India talent
+- **himalayas.app** — Remote-only global board; strong on ESG SaaS and sustainability startups; India-eligible roles common; good for Watershed, Persefoni, Sweep and similar
+- **wellfound.com** (formerly AngelList Talent) — Startup hiring; ESG SaaS, climate tech, and impact startups hire here; many remote; YC-backed companies often post here too
+- **hiring.cafe** — Aggregator pulling from company ATS pages (Greenhouse, Lever, Ashby, Workday); good for catching ESG roles at companies that don't post on job boards; filter by remote
+- **ycombinator.com/jobs** — Y Combinator-backed startup jobs; relevant for ESG SaaS (Watershed, Sweep, Net0 and others are YC-backed); many remote-first; filter by sustainability/climate/ESG
 
 ### Employer career pages — global remote-first targets
 - **DFIs/Multilaterals:** IFC (worldbank.org/jobs), ADB (adb.org/careers), AIIB (aiib.org/en/about-aiib/who-we-are/careers), BII/CDC (bii.co.uk/jobs), FMO (fmo.nl/work-at-fmo), DEG, Proparco, GIZ, OECD
@@ -171,6 +175,10 @@ site:remoteok.com "ESG" OR "sustainability" OR "carbon accounting" OR "climate"
 site:flexjobs.com "ESG" OR "sustainability" OR "GHG" remote Director OR "Senior Manager"
 site:simplyhired.com "ESG" OR "sustainability" remote India Director OR "Senior Manager" 2026
 site:instahyre.com "ESG" OR "sustainability" remote Director OR "Senior Manager"
+site:himalayas.app "ESG" OR "sustainability" OR "GHG" OR "climate risk" OR "carbon accounting" remote
+site:wellfound.com "ESG" OR "sustainability" OR "climate" OR "carbon" remote India
+site:hiring.cafe "ESG" OR "sustainability" OR "GHG" OR "climate" remote
+site:ycombinator.com/jobs "ESG" OR "sustainability" OR "climate" OR "carbon" remote
 ```
 
 **LinkedIn global remote (India-eligible):**
